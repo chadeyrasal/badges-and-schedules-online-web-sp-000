@@ -25,7 +25,7 @@ def printer(attendees)
   badges = batch_badge_creator(attendees)
 #  rooms = assign_rooms(attendees)
   counter = 0
-  while counter < attendees.size - 1 do
+  while counter < attendees.size do
     puts badges[counter]
     # + " " + rooms[counter]
     counter += 1
