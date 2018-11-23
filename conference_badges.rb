@@ -27,7 +27,7 @@ def printer(attendees)
   counter = 0
   while counter < attendees.size do
     puts badges[counter]
-    # + " " + rooms[counter]
+    puts rooms[counter]
     counter += 1
   end
 end
